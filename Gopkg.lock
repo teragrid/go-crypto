@@ -118,28 +118,33 @@
 [[projects]]
   branch = "master"
   name = "github.com/tendermint/ed25519"
+  packages = ["edwards25519"]
+  revision = "d8387025d2b9d158cf4efb07e7ebf814bcce2057"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/teragrid/ed25519"
   packages = [
     ".",
-    "edwards25519",
     "extra25519"
   ]
   revision = "d8387025d2b9d158cf4efb07e7ebf814bcce2057"
 
 [[projects]]
-  name = "github.com/tendermint/go-amino"
+  branch = "master"
+  name = "github.com/teragrid/go-amino"
   packages = ["."]
-  revision = "42246108ff925a457fb709475070a03dfd3e2b5c"
-  version = "0.9.6"
+  revision = "68c347fe3e5d01e64fadcbdda2d7004f512e2e01"
 
 [[projects]]
-  name = "github.com/tendermint/tmlibs"
+  branch = "master"
+  name = "github.com/teragrid/teralibs"
   packages = [
     "common",
     "db",
     "log"
   ]
-  revision = "2e24b64fc121dcdf1cabceab8dc2f7257675483c"
-  version = "v0.8.1"
+  revision = "8a7405f0c60db4b836333b919a1bfc91577a2c36"
 
 [[projects]]
   branch = "master"
@@ -166,6 +171,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f9ccfa2cadfcbfb43bf729b871a0ad2f8d4f4acb118cd859e6faf9b24842b840"
+  inputs-digest = "5bb98be42e989c0fadf9fc1a32acd8f83afc059ad7ce78e0ef9db8eea3b1d27f"
   solver-name = "gps-cdcl"
   solver-version = 1

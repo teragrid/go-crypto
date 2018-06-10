@@ -1,7 +1,7 @@
 package keys
 
 import (
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/teragrid/go-crypto"
 )
 
 // Keybase allows simple CRUD on a keystore, as an aid to signing

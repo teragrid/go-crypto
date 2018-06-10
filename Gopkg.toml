@@ -42,16 +42,18 @@
   version = "1.2.1"
 
 [[constraint]]
-  name = "github.com/tendermint/ed25519"
+  name = "github.com/teragrid/ed25519"
   branch = "master"
 
 [[constraint]]
-  name = "github.com/tendermint/go-amino"
-  version = "0.9.6"
+  branch = "master"
+  name = "github.com/teragrid/go-amino"
+  # version = "0.1.0"
 
 [[constraint]]
-  name = "github.com/tendermint/tmlibs"
-  version = "0.8.1"
+  branch = "master"
+  name = "github.com/teragrid/teralibs"
+  # version = "0.1.0"
 
 [[constraint]]
   name = "github.com/tyler-smith/go-bip39"

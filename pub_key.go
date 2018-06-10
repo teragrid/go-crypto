@@ -6,9 +6,9 @@ import (
 	"fmt"
 
 	secp256k1 "github.com/btcsuite/btcd/btcec"
-	"github.com/tendermint/ed25519"
-	"github.com/tendermint/ed25519/extra25519"
-	cmn "github.com/tendermint/tmlibs/common"
+	"github.com/teragrid/ed25519"
+	"github.com/teragrid/ed25519/extra25519"
+	cmn "github.com/teragrid/teralibs/common"
 	"golang.org/x/crypto/ripemd160"
 )
 

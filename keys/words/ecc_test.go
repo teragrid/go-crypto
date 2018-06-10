@@ -5,7 +5,7 @@ import (
 
 	asrt "github.com/stretchr/testify/assert"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/teragrid/teralibs/common"
 )
 
 var codecs = []ECC{

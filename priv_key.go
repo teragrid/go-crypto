@@ -4,9 +4,9 @@ import (
 	"crypto/subtle"
 
 	secp256k1 "github.com/btcsuite/btcd/btcec"
-	"github.com/tendermint/ed25519"
-	"github.com/tendermint/ed25519/extra25519"
-	. "github.com/tendermint/tmlibs/common"
+	"github.com/teragrid/ed25519"
+	"github.com/teragrid/ed25519/extra25519"
+	. "github.com/teragrid/teralibs/common"
 )
 
 func PrivKeyFromBytes(privKeyBytes []byte) (privKey PrivKey, err error) {

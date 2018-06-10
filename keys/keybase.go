@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	crypto "github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-crypto/keys/words"
-	dbm "github.com/tendermint/tmlibs/db"
+	crypto "github.com/teragrid/go-crypto"
+	"github.com/teragrid/go-crypto/keys/words"
+	dbm "github.com/teragrid/teralibs/db"
 )
 
 // dbKeybase combines encyption and storage implementation to provide

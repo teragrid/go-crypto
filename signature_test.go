@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/ed25519"
-	amino "github.com/tendermint/go-amino"
+	"github.com/teragrid/ed25519"
+	amino "github.com/teragrid/go-amino"
 )
 
 func TestSignAndValidateEd25519(t *testing.T) {

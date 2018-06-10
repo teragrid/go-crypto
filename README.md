@@ -1,13 +1,13 @@
-# go-crypto [![GoDoc](https://godoc.org/github.com/tendermint/go-crypto?status.svg)](https://godoc.org/github.com/tendermint/go-crypto)
+# go-crypto [![GoDoc](https://godoc.org/github.com/teragrid/go-crypto?status.svg)](https://godoc.org/github.com/teragrid/go-crypto)
 
 go-crypto is the cryptographic package adapted for Tendermint's uses
 
 ## Importing it
-`import "github.com/tendermint/go-crypto"`
+`import "github.com/teragrid/go-crypto"`
 
 ## Binary encoding
 
-For Binary encoding, please refer to the [Tendermint encoding spec](https://github.com/tendermint/tendermint/blob/develop/docs/spec/blockchain/encoding.md).
+For Binary encoding, please refer to the [Tendermint encoding spec](https://github.com/teragrid/teragrid/blob/develop/docs/spec/blockchain/encoding.md).
 
 ## JSON Encoding
 

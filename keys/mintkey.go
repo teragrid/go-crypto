@@ -4,10 +4,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/teragrid/teralibs/common"
 
-	"github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-crypto/keys/bcrypt"
+	"github.com/teragrid/go-crypto"
+	"github.com/teragrid/go-crypto/keys/bcrypt"
 )
 
 const (

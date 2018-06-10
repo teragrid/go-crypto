@@ -8,7 +8,7 @@ import (
 	asrt "github.com/stretchr/testify/assert"
 	rqr "github.com/stretchr/testify/require"
 
-	crypto "github.com/tendermint/go-crypto"
+	crypto "github.com/teragrid/go-crypto"
 )
 
 func TestLedgerKeys(t *testing.T) {

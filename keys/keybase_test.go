@@ -7,11 +7,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/tendermint/tmlibs/db"
+	dbm "github.com/teragrid/teralibs/db"
 
-	"github.com/tendermint/go-crypto"
-	"github.com/tendermint/go-crypto/keys"
-	"github.com/tendermint/go-crypto/keys/words"
+	"github.com/teragrid/go-crypto"
+	"github.com/teragrid/go-crypto/keys"
+	"github.com/teragrid/go-crypto/keys/words"
 )
 
 // TestKeyManagement makes sure we can manipulate these keys well

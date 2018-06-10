@@ -3,7 +3,7 @@ package words
 import (
 	"testing"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/teragrid/teralibs/common"
 )
 
 func warmupCodec(bank string) *WordCodec {

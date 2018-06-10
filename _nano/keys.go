@@ -8,8 +8,8 @@ import (
 
 	ledger "github.com/ethanfrey/ledger"
 
-	crypto "github.com/tendermint/go-crypto"
-	amino "github.com/tendermint/go-amino"
+	crypto "github.com/teragrid/go-crypto"
+	amino "github.com/teragrid/go-amino"
 )
 
 //nolint

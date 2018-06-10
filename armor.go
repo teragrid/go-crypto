@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	. "github.com/tendermint/tmlibs/common"
+	. "github.com/teragrid/teralibs/common"
 	"golang.org/x/crypto/openpgp/armor"
 )
 

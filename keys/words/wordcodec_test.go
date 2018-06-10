@@ -6,7 +6,7 @@ import (
 	asrt "github.com/stretchr/testify/assert"
 	rqr "github.com/stretchr/testify/require"
 
-	cmn "github.com/tendermint/tmlibs/common"
+	cmn "github.com/teragrid/teralibs/common"
 )
 
 func TestLengthCalc(t *testing.T) {

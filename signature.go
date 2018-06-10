@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	. "github.com/tendermint/tmlibs/common"
+	. "github.com/teragrid/teralibs/common"
 )
 
 func SignatureFromBytes(pubKeyBytes []byte) (pubKey Signature, err error) {

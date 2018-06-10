@@ -1,8 +1,8 @@
 package keys
 
 import (
-	amino "github.com/tendermint/go-amino"
-	crypto "github.com/tendermint/go-crypto"
+	amino "github.com/teragrid/go-amino"
+	crypto "github.com/teragrid/go-crypto"
 )
 
 var cdc = amino.NewCodec()

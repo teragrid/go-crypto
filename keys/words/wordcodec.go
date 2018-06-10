@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/go-crypto/keys/words/wordlist"
+	"github.com/teragrid/go-crypto/keys/words/wordlist"
 )
 
 const BankSize = 2048
