@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	blockTypePrivKey = "TENDERMINT PRIVATE KEY"
-	blockTypeKeyInfo = "TENDERMINT KEY INFO"
+	blockTypePrivKey = "TERAGRID PRIVATE KEY"
+	blockTypeKeyInfo = "TERAGRID KEY INFO"
 )
 
 func armorInfoBytes(bz []byte) string {

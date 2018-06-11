@@ -5,13 +5,13 @@
   branch = "master"
   name = "github.com/btcsuite/btcd"
   packages = ["btcec"]
-  revision = "2be2f12b358dc57d70b8f501b00be450192efbc3"
+  revision = "86fed781132ac890ee03e906e4ecd5d6fa180c64"
 
 [[projects]]
   branch = "master"
   name = "github.com/btcsuite/btcutil"
   packages = ["base58"]
-  revision = "501929d3d046174c3d39f0ea54ece471aa17238c"
+  revision = "d4cc87b860166d00d6b5b9e0d3b3d71d6088d4d4"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -55,7 +55,7 @@
   branch = "master"
   name = "github.com/golang/snappy"
   packages = ["."]
-  revision = "553a641470496b2327abcac10b36396bd98e45c9"
+  revision = "2e65f85255dbc3072edf28d6b5b8efc472979f5a"
 
 [[projects]]
   branch = "master"
@@ -93,8 +93,8 @@
     "assert",
     "require"
   ]
-  revision = "12b6f73e6084dad08a7c6e575284b177ecafbc71"
-  version = "v1.2.1"
+  revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+  version = "v1.2.2"
 
 [[projects]]
   branch = "master"
@@ -113,7 +113,7 @@
     "leveldb/table",
     "leveldb/util"
   ]
-  revision = "714f901b98fdb3aa954b4193d8cbd64a28d80cad"
+  revision = "e2150783cd35f5b607daca48afd8c57ec54cc995"
 
 [[projects]]
   branch = "master"
@@ -134,7 +134,7 @@
   branch = "master"
   name = "github.com/teragrid/go-amino"
   packages = ["."]
-  revision = "68c347fe3e5d01e64fadcbdda2d7004f512e2e01"
+  revision = "cda24e4f1b69ad6be3242f232bce42391e614fab"
 
 [[projects]]
   branch = "master"
@@ -144,7 +144,7 @@
     "db",
     "log"
   ]
-  revision = "8a7405f0c60db4b836333b919a1bfc91577a2c36"
+  revision = "49b8eb37be66767c51793b7ee272e1e6c95c5371"
 
 [[projects]]
   branch = "master"
@@ -166,7 +166,7 @@
     "ripemd160",
     "salsa20/salsa"
   ]
-  revision = "b2aa35443fbc700ab74c586ae79b81c171851023"
+  revision = "8ac0e0d97ce45cd83d1d7243c060cb8461dda5e9"
 
 [solve-meta]
   analyzer-name = "dep"
