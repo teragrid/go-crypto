@@ -1,6 +1,6 @@
 # go-crypto [![GoDoc](https://godoc.org/github.com/teragrid/go-crypto?status.svg)](https://godoc.org/github.com/teragrid/go-crypto)
 
-go-crypto is the cryptographic package adapted for Tendermint's uses
+go-crypto is the cryptographic package adapted for Teragrid's usage
 
 ## Importing it
 `import "github.com/teragrid/go-crypto"`
